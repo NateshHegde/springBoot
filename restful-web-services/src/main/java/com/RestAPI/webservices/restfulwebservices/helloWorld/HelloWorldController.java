@@ -1,4 +1,4 @@
-package com.RestAPI.webservices.restfulwebservices;
+package com.RestAPI.webservices.restfulwebservices.helloWorld;
 
 import javax.management.RuntimeErrorException;
 
@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.RestAPI.webservices.restfulwebservices.HelloWorldBean;
 
 @CrossOrigin(origins = "http://localhost:4200")
 @RestController

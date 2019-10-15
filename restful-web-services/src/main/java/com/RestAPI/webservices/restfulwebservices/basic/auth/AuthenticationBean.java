@@ -1,10 +1,10 @@
-package com.RestAPI.webservices.restfulwebservices;
+package com.RestAPI.webservices.restfulwebservices.basic.auth;
 
-public class HelloWorldBean {
+public class AuthenticationBean {
 	
 	public String message;
 	
-	public HelloWorldBean(String message)
+	public AuthenticationBean(String message)
 	{
 		this.message = message;
 	}
