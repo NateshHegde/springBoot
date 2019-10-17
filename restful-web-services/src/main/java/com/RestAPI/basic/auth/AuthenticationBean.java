@@ -1,4 +1,4 @@
-package com.RestAPI.webservices.restfulwebservices.basic.auth;
+package com.RestAPI.basic.auth;
 
 public class AuthenticationBean {
 	
@@ -13,7 +13,7 @@ public class AuthenticationBean {
 
 	public String getMessage() {
 		return message;
-	}
+	}  
 
 	public void setMessage(String message) {
 		this.message = message;
